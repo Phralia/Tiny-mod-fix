@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.acfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityCollisionFixMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
